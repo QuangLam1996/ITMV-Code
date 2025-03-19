@@ -1,0 +1,24 @@
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.AssemblyReference.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.CoreCompileInputs.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\bin\Debug\Mitsubishi.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\Mitsubishi\obj\Debug\Mitsubishi.pdb

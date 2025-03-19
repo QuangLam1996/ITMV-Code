@@ -1,0 +1,32 @@
+C:\Users\User\source\repos\CameraROI\bin\Debug\CameraROI.dll
+C:\Users\User\source\repos\CameraROI\bin\Debug\CameraROI.pdb
+C:\Users\User\source\repos\CameraROI\bin\Debug\MvCameraControl.Net.dll
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.dll
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\User\source\repos\CameraROI\bin\Debug\MvCameraControl.Net.xml
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.Extensions.pdb
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.UserInterface.pdb
+C:\Users\User\source\repos\CameraROI\bin\Debug\OpenCvSharp.UserInterface.xml
+C:\Users\User\source\repos\CameraROI\obj\Debug\CameraROI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CameraROI\obj\Debug\CameraROI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CameraROI\obj\Debug\CameraROI.csproj.Up2Date
+C:\Users\User\source\repos\CameraROI\obj\Debug\CameraROI.dll
+C:\Users\User\source\repos\CameraROI\obj\Debug\CameraROI.pdb
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\CameraROI.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\CameraROI.pdb
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\MvCameraControl.Net.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.Extensions.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.UserInterface.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\MvCameraControl.Net.xml
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.Extensions.pdb
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.Extensions.xml
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.UserInterface.pdb
+D:\Edit20241220\ITM Semiconductor\CameraROI\bin\Debug\OpenCvSharp.UserInterface.xml
+D:\Edit20241220\ITM Semiconductor\CameraROI\obj\Debug\CameraROI.csproj.AssemblyReference.cache
+D:\Edit20241220\ITM Semiconductor\CameraROI\obj\Debug\CameraROI.csproj.CoreCompileInputs.cache
+D:\Edit20241220\ITM Semiconductor\CameraROI\obj\Debug\CameraROI.csproj.Up2Date
+D:\Edit20241220\ITM Semiconductor\CameraROI\obj\Debug\CameraROI.dll
+D:\Edit20241220\ITM Semiconductor\CameraROI\obj\Debug\CameraROI.pdb

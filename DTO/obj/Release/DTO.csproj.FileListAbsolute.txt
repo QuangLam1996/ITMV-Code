@@ -1,0 +1,9 @@
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Release\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Release\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Release\DTO.pdb

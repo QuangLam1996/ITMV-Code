@@ -1,0 +1,54 @@
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\Edit20241220\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb

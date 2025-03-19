@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEllipseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EllipseInfo>
+    <Left>711.09443884274947</Left>
+    <Top>237.92025739630981</Top>
+    <Width>141.14902151339538</Width>
+    <Height>102.83714424547361</Height>
+  </EllipseInfo>
+  <EllipseInfo>
+    <Left>900.63741058930873</Left>
+    <Top>429.47964373591776</Top>
+    <Width>179.46089878131716</Width>
+    <Height>120.98487558291004</Height>
+  </EllipseInfo>
+  <EllipseInfo>
+    <Left>721.176511807992</Left>
+    <Top>500.05415449261523</Top>
+    <Width>137.11619232729822</Width>
+    <Height>78.640169128891785</Height>
+  </EllipseInfo>
+</ArrayOfEllipseInfo>

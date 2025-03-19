@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEllipseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EllipseInfo>
+    <Left>495.45548886919289</Left>
+    <Top>306.24863544176355</Top>
+    <Width>87.190787972831572</Width>
+    <Height>104.62894556739775</Height>
+  </EllipseInfo>
+  <EllipseInfo>
+    <Left>757.02785278768738</Left>
+    <Top>546.02330236705006</Top>
+    <Width>78.47170917554854</Width>
+    <Height>85.0110182735109</Height>
+  </EllipseInfo>
+</ArrayOfEllipseInfo>

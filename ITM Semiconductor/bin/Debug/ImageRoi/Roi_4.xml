@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEllipseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EllipseInfo>
+    <Left>530</Left>
+    <Top>60.991735537190038</Top>
+    <Width>74</Width>
+    <Height>74</Height>
+  </EllipseInfo>
+</ArrayOfEllipseInfo>

@@ -1,0 +1,278 @@
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\VM32316681\Desktop\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\ITM SEMICONDUCTOR\Tai Lieu WPF\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\1\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hiep\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\DUC PROJECT\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\aaPC\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\aaPC\Desktop\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\aaPC\Desktop\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\aaPC\Desktop\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\New folder\18102024\ITM Semiconductor (1)\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cuting\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cuting\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\New\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241214\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241215\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241216\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\Hi Windows 11 Home\Desktop\Edit 20241218\Edit 20241218\Edit 20241126\ITM Semiconductor\ITM Semiconductor\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241219\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+C:\Users\hiep1\Desktop\Laser Cutting\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\2. ITM\1. Project\2024\5. Laser Cutting\Edit20241220\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll.config
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.dll
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\DTO.pdb
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Buffers.xml
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Memory.xml
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Numerics.Vectors.xml
+D:\Edit20241220\ITM Semiconductor\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Fody.CopyLocal.cache
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.dll
+D:\Edit20241220\ITM Semiconductor\DTO\obj\Debug\DTO.pdb
