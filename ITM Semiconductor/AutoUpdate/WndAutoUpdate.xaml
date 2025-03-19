@@ -1,0 +1,59 @@
+﻿<Window x:Class="ITM_Semiconductor.WndAutoUpdate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITM_Semiconductor"
+        mc:Ignorable="d"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        Title="WndAutoUpdate" Height="250" Width="700">
+    <Grid Background="Transparent"  MouseDown="Grid_MouseDown">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style TargetType="Button" BasedOn="{StaticResource sButton}">
+                <Setter Property="FontSize" Value="24" />
+                <Setter Property="FontWeight" Value="Bold" />
+                <Setter Property="Margin" Value="0,5,5,5" />
+                <Setter Property="Background" Value="#008080" />
+
+            </Style>
+        </Grid.Resources>
+
+        <Grid Grid.Row="0" Background="LightBlue"></Grid>
+        <StackPanel>
+            <!--<Image Source="/Folder/PageUI/Icon/close1.png" Panel.ZIndex="1" Grid.Column="1" Style="{StaticResource imgclose}" MouseLeftButtonDown="Image_Mouseup"/>-->
+            <Label Grid.Row="0"  Height="60" Background="LightBlue" VerticalContentAlignment="Center" FontFamily="Bahnschrift SemiBold Condensed" FontWeight="Bold" Foreground="Black" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"  Margin="10,10,10,00" >
+                Đã có phiên bản mới . Vui lòng xác nhận để câp nhật
+            </Label>
+            <Label Grid.Row="0" Name="lblMessage" Height="60" Background="LightBlue" VerticalContentAlignment="Center" FontFamily="Bahnschrift SemiBold Condensed" FontWeight="Bold" Foreground="Black" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"  Margin="10,0,10,00" >
+                Nội Dung UpDate
+            </Label>
+        </StackPanel>
+       
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0 15 0 0">
+            <Button x:Name="btnYes" Margin="80 0 10 10" Width="120" Height="50" >
+                <StackPanel Orientation="Horizontal">
+                    <!--<Image Source="/Folder/PageUI/Icon/checked.png" Height="30"></Image>-->
+                    <Label Foreground="White">Yes (Y)</Label>
+                </StackPanel>
+
+            </Button>
+            <Button x:Name="btnNo" Margin="280 0 10 10" Width="120" Height="50" >
+                <StackPanel Orientation="Horizontal">
+                    <!--<Image Source="/Folder/PageUI/Icon/close.png" Height="30"></Image>-->
+                    <Label Foreground="White">No (N)</Label>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+
+
+    </Grid>
+
+</Window>

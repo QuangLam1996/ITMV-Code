@@ -1,0 +1,31 @@
+﻿<Window x:Class="ITM_Semiconductor.WindowPopUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITM_Semiconductor"
+        mc:Ignorable="d"
+        Title="WindowPopUp" Height="450" Width="800">
+    <UniformGrid Rows="2">
+        <Label HorizontalContentAlignment="Center" Name="lblMessage" Foreground="red" FontSize="20" VerticalContentAlignment="Center">message</Label>
+
+        <Grid Background="DodgerBlue">
+            <Grid.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource mButton}">
+                    <Setter Property="FontSize" Value="24"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Width" Value="240"/>
+                    <Setter Property="Height" Value="100"/>
+                </Style>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btYes" Grid.Column="0" Foreground="Blue">PickUp Again</Button>
+            <Button x:Name="btNo" Grid.Column="1" Foreground="Red">Skip Vacuum</Button>
+            <Button x:Name="btOne" Grid.Column="0" Grid.ColumnSpan="2" Visibility="Hidden" Foreground="Blue"
+                 >Yes</Button>
+        </Grid>
+    </UniformGrid>
+</Window>

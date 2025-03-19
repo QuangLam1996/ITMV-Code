@@ -1,0 +1,395 @@
+﻿<Window x:Class="ITM_Semiconductor.WndAlert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITM_Semiconductor"
+        mc:Ignorable="d"
+        Topmost="True"
+         Title="WndAlert"  
+         KeyUp="Window_KeyUp"
+         Height="650"
+         Width="850"
+         AllowsTransparency="True"
+         WindowStartupLocation="CenterScreen"
+         WindowStyle="None"
+         Background="Transparent">
+
+
+    <Grid >
+        <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border CornerRadius=" 10 10 10 10 ">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#6787c0" Offset="0"/>
+                    <GradientStop Color="#879ec8" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <ContentControl x:Name="Pages"
+                  Content="{Binding CurrentView}" />
+
+        <Image Source="/Folder/PageUI/Icon/close1.png" Panel.ZIndex="1" Grid.Column="1" Style="{StaticResource imgclose}" MouseUp="Image_Mouseup"/>
+        <Grid Grid.Column="0">
+            <Grid.Resources>
+
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Foreground" Value="#dd222222" />
+                    <Setter Property="Padding" Value="5,0" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="FontSize" Value="24" />
+                </Style>
+
+            </Grid.Resources>
+        
+        </Grid>
+        <Grid Grid.Row="3">
+            
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Label}">
+                    <Setter Property="Foreground" Value="#dd222222" />
+                    <Setter Property="Padding" Value="5,0" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="FontSize" Value="24" />
+                </Style>
+                <Style TargetType="Button" BasedOn="{StaticResource ssButton}">
+                    <Setter Property="FontSize" Value="24" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                   
+                    <Setter Property="Background" Value="#BDB76B" />
+                    <Setter Property="BorderThickness" Value="0"/>
+
+
+                </Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="25" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Foreground" Value="White"/>
+
+                </Style>
+
+            </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80"></ColumnDefinition>
+                    <ColumnDefinition Width="80"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Border CornerRadius=" 0 0 0 10 " Background="#6787c0"></Border>
+                    <Border  Background="#6787c0" Margin="12 4 12 4" CornerRadius=" 10 10 10 10 "/>
+                    <Image  MouseUp="Image_Up" Height="50" Source="/Folder/PageUI/Icon/up3.png"></Image>
+                </Grid>
+                <Grid Grid.Column="1" Background="#6787c0">
+                    <Border  Background="#6787c0" Margin="12 4 12 4" CornerRadius=" 10 10 10 10 "/>
+                    <Image MouseUp="Image_Down" Height="50" Source="/Folder/PageUI/Icon/down3.png"></Image>
+                </Grid>
+                <Border CornerRadius=" 0 0 10 0 " Grid.Column="2">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#6787c0" Offset="0"/>
+                            <GradientStop Color="White" Offset="2"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Label Padding="0 0 170 0" MouseLeftButtonDown="Label_ButtonDown" FontWeight="Bold" FontSize="35" Foreground="White">
+                        <Label.Effect>
+                            <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                        </Label.Effect> Close</Label>
+                </Border>
+        </Grid>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" CornerRadius=" 10 10 0 0 " >
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FF6347" Offset="0"/>
+                        <GradientStop Color="#FF6A6A" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Label  FontWeight="Bold" Padding="40 8 0 0" Foreground="White" FontSize="30"  >
+                    <Label.Effect>
+                        <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                    </Label.Effect> Alarm Message
+                </Label>
+            </Border>
+            <Border Grid.Row="1" CornerRadius=" 0 0 10 0 " >
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#879ec0" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+            </Border>
+          
+        </Grid>
+       
+            <Grid Grid.Row="1" Background="White">
+           
+                <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition Width="40"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="0.19*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Background="#DDDDDD" Margin="1" FontSize="18" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">No</Label>
+                <Label Grid.Row="0" Grid.Column="1" Background="#DDDDDD" Margin="1" FontSize="18" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Time</Label>
+                <Label Grid.Row="0" Grid.Column="2" Background="#DDDDDD" Margin="1" FontSize="18" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Code</Label>
+                <Label Grid.Row="0" Grid.Column="3" Background="#DDDDDD" Margin="1" FontSize="18" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Message</Label>
+                <Label Grid.Row="0" Grid.Column="4" Background="#DDDDDD" Margin="1" FontSize="18" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Solution</Label>
+        </Grid>
+
+            <ScrollViewer CanContentScroll="True" Name="scrollView" VerticalScrollBarVisibility="Auto" Grid.Row="2">
+            <Grid Grid.Row="2" Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <!-- Sử dụng vòng lặp để tạo 20 hàng -->
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition> 
+                
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                        <!-- Copy và dán dòng trên 19 lần nữa -->
+            </Grid.RowDefinitions>
+
+            <!-- Nội dung của các hàng Label -->
+            <!-- Đảm bảo điều chỉnh Grid.Row cho mỗi Label -->
+                    <Label x:Name="lbNo1"           Grid.Row="0" Grid.Column="0" Background="Black" Foreground="White" Margin="1">01</Label>
+                    <Label x:Name="lbTime1"         Grid.Row="0" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode1"         Grid.Row="0" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes1"      Grid.Row="0" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution1" Grid.Row="0" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo2"       Grid.Row="1" Grid.Column="0" Background="Black" Foreground="White" Margin="1">02</Label>
+                    <Label x:Name="lbTime2"     Grid.Row="1" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode2"     Grid.Row="1" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes2"      Grid.Row="1" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution2" Grid.Row="1" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo3"       Grid.Row="2" Grid.Column="0" Background="Black" Foreground="White" Margin="1">03</Label>
+                    <Label x:Name="lbTime3"     Grid.Row="2" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode3"     Grid.Row="2" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes3"      Grid.Row="2" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution3" Grid.Row="2" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo4"       Grid.Row="3" Grid.Column="0" Background="Black" Foreground="White" Margin="1">04</Label>
+                    <Label x:Name="lbTime4"     Grid.Row="3" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode4"     Grid.Row="3" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes4"      Grid.Row="3" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution4" Grid.Row="3" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo5"       Grid.Row="4" Grid.Column="0" Background="Black" Foreground="White" Margin="1">05</Label>
+                    <Label x:Name="lbTime5"     Grid.Row="4" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode5"     Grid.Row="4" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes5"      Grid.Row="4" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution5" Grid.Row="4" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo6"       Grid.Row="5" Grid.Column="0" Background="Black" Foreground="White" Margin="1">06</Label>
+                    <Label x:Name="lbTime6"     Grid.Row="5" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode6"     Grid.Row="5" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes6"      Grid.Row="5" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution6" Grid.Row="5" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+  
+                    <Label x:Name="lbNo7"           Grid.Row="6" Grid.Column="0" Background="Black" Foreground="White" Margin="1">07</Label>
+                    <Label x:Name="lbTime7"         Grid.Row="6" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode7"         Grid.Row="6" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes7"      Grid.Row="6" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution7" Grid.Row="6" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo8"           Grid.Row="7" Grid.Column="0" Background="Black" Foreground="White" Margin="1">08</Label>
+                    <Label x:Name="lbTime8"         Grid.Row="7" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode8"         Grid.Row="7" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes8"      Grid.Row="7" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution8" Grid.Row="7" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo9"           Grid.Row="8" Grid.Column="0" Background="Black" Foreground="White" Margin="1">09</Label>
+                    <Label x:Name="lbTime9"         Grid.Row="8" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode9"         Grid.Row="8" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes9"      Grid.Row="8" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution9" Grid.Row="8" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo10"           Grid.Row="9" Grid.Column="0" Background="Black" Foreground="White" Margin="1">10</Label>
+                    <Label x:Name="lbTime10"         Grid.Row="9" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode10"         Grid.Row="9" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes10"      Grid.Row="9" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution10" Grid.Row="9" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo11"           Grid.Row="10" Grid.Column="0" Background="Black" Foreground="White" Margin="1">11</Label>
+                    <Label x:Name="lbTime11"         Grid.Row="10" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode11"         Grid.Row="10" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes11"      Grid.Row="10" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution11" Grid.Row="10" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo12"           Grid.Row="11" Grid.Column="0" Background="Black" Foreground="White" Margin="1">12</Label>
+                    <Label x:Name="lbTime12"         Grid.Row="11" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode12"         Grid.Row="11" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes12"      Grid.Row="11" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution12" Grid.Row="11" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo13"           Grid.Row="12" Grid.Column="0" Background="Black" Foreground="White" Margin="1">13</Label>
+                    <Label x:Name="lbTime13"         Grid.Row="12" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode13"         Grid.Row="12" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes13"      Grid.Row="12" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution13" Grid.Row="12" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo14"           Grid.Row="13" Grid.Column="0" Background="Black" Foreground="White" Margin="1">14</Label>
+                    <Label x:Name="lbTime14"         Grid.Row="13" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode14"         Grid.Row="13" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes14"      Grid.Row="13" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution14" Grid.Row="13" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo15"           Grid.Row="14" Grid.Column="0" Background="Black" Foreground="White" Margin="1">15</Label>
+                    <Label x:Name="lbTime15"         Grid.Row="14" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode15"         Grid.Row="14" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes15"      Grid.Row="14" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution15" Grid.Row="14" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo16"           Grid.Row="15" Grid.Column="0" Background="Black" Foreground="White" Margin="1">16</Label>
+                    <Label x:Name="lbTime16"         Grid.Row="15" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode16"         Grid.Row="15" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes16"      Grid.Row="15" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution16" Grid.Row="15" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo17"           Grid.Row="16" Grid.Column="0" Background="Black" Foreground="White" Margin="1">17</Label>
+                    <Label x:Name="lbTime17"         Grid.Row="16" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode17"         Grid.Row="16" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes17"      Grid.Row="16" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution17" Grid.Row="16" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo18"           Grid.Row="17" Grid.Column="0" Background="Black" Foreground="White" Margin="1">18</Label>
+                    <Label x:Name="lbTime18"         Grid.Row="17" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode18"         Grid.Row="17" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes18"      Grid.Row="17" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution18" Grid.Row="17" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo19"           Grid.Row="18" Grid.Column="0" Background="Black" Foreground="White" Margin="1">19</Label>
+                    <Label x:Name="lbTime19"         Grid.Row="18" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode19"         Grid.Row="18" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes19"      Grid.Row="18" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution19" Grid.Row="18" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo20"           Grid.Row="19" Grid.Column="0" Background="Black" Foreground="White" Margin="1">20</Label>
+                    <Label x:Name="lbTime20"         Grid.Row="19" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode20"         Grid.Row="19" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes20"      Grid.Row="19" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution20" Grid.Row="19" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo21"           Grid.Row="20" Grid.Column="0" Background="Black" Foreground="White" Margin="1">21</Label>
+                    <Label x:Name="lbTime21"         Grid.Row="20" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode21"         Grid.Row="20" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <TextBlock x:Name="lbMes21"      Grid.Row="20" Grid.Column="3" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+                    <TextBlock x:Name="lbSolution21" Grid.Row="20" Grid.Column="4" Background="Black" Foreground="White" Margin="1" TextWrapping="Wrap"></TextBlock>
+
+                    <Label x:Name="lbNo22"       Grid.Row="21" Grid.Column="0" Background="Black" Foreground="White" Margin="1">22</Label>
+                    <Label x:Name="lbTime22"     Grid.Row="21" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode22"     Grid.Row="21" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes22"      Grid.Row="21" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution22" Grid.Row="21" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo23"       Grid.Row="22" Grid.Column="0" Background="Black" Foreground="White" Margin="1">23</Label>
+                    <Label x:Name="lbTime23"     Grid.Row="22" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode23"     Grid.Row="22" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes23"      Grid.Row="22" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution23" Grid.Row="22" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo24"       Grid.Row="23" Grid.Column="0" Background="Black" Foreground="White" Margin="1">24</Label>
+                    <Label x:Name="lbTime24"     Grid.Row="23" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode24"     Grid.Row="23" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes24"      Grid.Row="23" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution24" Grid.Row="23" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo25"       Grid.Row="24" Grid.Column="0" Background="Black" Foreground="White" Margin="1">25</Label>
+                    <Label x:Name="lbTime25"     Grid.Row="24" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode25"     Grid.Row="24" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes25"      Grid.Row="24" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution25" Grid.Row="24" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo26"       Grid.Row="25" Grid.Column="0" Background="Black" Foreground="White" Margin="1">26</Label>
+                    <Label x:Name="lbTime26"     Grid.Row="25" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode26"     Grid.Row="25" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes26"      Grid.Row="25" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution26" Grid.Row="25" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo27"       Grid.Row="26" Grid.Column="0" Background="Black" Foreground="White" Margin="1">27</Label>
+                    <Label x:Name="lbTime27"     Grid.Row="26" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode27"     Grid.Row="26" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes27"      Grid.Row="26" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution27" Grid.Row="26" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo28"       Grid.Row="27" Grid.Column="0" Background="Black" Foreground="White" Margin="1">28</Label>
+                    <Label x:Name="lbTime28"     Grid.Row="27" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode28"     Grid.Row="27" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes28"      Grid.Row="27" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution28" Grid.Row="27" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo29"       Grid.Row="28" Grid.Column="0" Background="Black" Foreground="White" Margin="1">29</Label>
+                    <Label x:Name="lbTime29"     Grid.Row="28" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode29"     Grid.Row="28" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes29"      Grid.Row="28" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution29" Grid.Row="28" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+                    <Label x:Name="lbNo30"       Grid.Row="29" Grid.Column="0" Background="Black" Foreground="White" Margin="1">30</Label>
+                    <Label x:Name="lbTime30"     Grid.Row="29" Grid.Column="1" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbCode30"     Grid.Row="29" Grid.Column="2" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbMes30"      Grid.Row="29" Grid.Column="3" Background="Black" Foreground="White" Margin="1"></Label>
+                    <Label x:Name="lbSolution30" Grid.Row="29" Grid.Column="4" Background="Black" Foreground="White" Margin="1"></Label>
+
+
+                </Grid>
+        </ScrollViewer>
+
+        </Grid>
+    </Grid>
+</Window>

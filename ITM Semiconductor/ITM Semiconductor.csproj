@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\build\OpenCvSharp3-AnyCPU.props" Condition="Exists('..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\build\OpenCvSharp3-AnyCPU.props')" />
+  <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AE09138-DAB3-4831-9032-A1ABEA0EE541}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ITM_Semiconductor</RootNamespace>
+    <AssemblyName>ITM Semiconductor</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>5</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>code_115247.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CameraROI">
+      <HintPath>..\CameraROI\bin\Debug\CameraROI.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="DTO">
+      <HintPath>..\DTO\bin\Debug\DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=7.2.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.7.2.1\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.6.1.1\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP, Version=51.1.0.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentFTP.51.1.0\lib\net472\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="KeyPad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KeyPad\bin\Debug\KeyPad.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvCameraControl.Net, Version=3.0.0.2, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\du an vison sénor\MvCameraControl.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Schema, Version=3.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Schema.3.0.15\lib\net45\Newtonsoft.Json.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\lib\net461\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Blob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\lib\net461\OpenCvSharp.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\lib\net461\OpenCvSharp.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\lib\net461\OpenCvSharp.UserInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.9.0.0\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.6.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.6.1\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.6.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.6.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.6.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.6.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.6.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.6.1\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.6.1\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AutoUpdate\AutoUpdate.cs" />
+    <Compile Include="Camera\CameraOperator.cs" />
+    <Compile Include="Camera\CameraOperatorHandle.cs" />
+    <Compile Include="Camera\HikCam.cs" />
+    <Compile Include="Camera\HikCamDevice.cs" />
+    <Compile Include="Camera\HikCamParameter.cs" />
+    <Compile Include="Camera\VisionAL.cs" />
+    <Compile Include="Folder\PageUI\Pg Camera Setting\RegionCreatMatrix.xaml.cs">
+      <DependentUpon>RegionCreatMatrix.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Camera Setting\RegionProperty.xaml.cs">
+      <DependentUpon>RegionProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LotStatus.cs" />
+    <Compile Include="MES\DataChecking.cs" />
+    <Compile Include="Folder\PageUI\Pg Manual Operation\PgManualOperation1.xaml.cs">
+      <DependentUpon>PgManualOperation1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu1.xaml.cs">
+      <DependentUpon>PgMechanicalMenu1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu2.xaml.cs">
+      <DependentUpon>PgMechanicalMenu2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu3.xaml.cs">
+      <DependentUpon>PgMechanicalMenu3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="COM Setting\ComSettings.cs" />
+    <Compile Include="Folder\Library\AlarmList.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataType\AlarmInfo.cs" />
+    <Compile Include="DataType\EventLog.cs" />
+    <Compile Include="DataType\MachineStatus.cs" />
+    <Compile Include="Folder\Library\UserLog.cs" />
+    <Compile Include="Folder\Library\UserManager.cs" />
+    <Compile Include="Folder\PageUI\Pg Assign Menu\PgAssignMenu.xaml.cs">
+      <DependentUpon>PgAssignMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Manual Operation\PgManualOperation.xaml.cs">
+      <DependentUpon>PgManualOperation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu.xaml.cs">
+      <DependentUpon>PgMechanicalMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Model\PgModel.xaml.cs">
+      <DependentUpon>PgModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Status Menu\PgStatusMenu.xaml.cs">
+      <DependentUpon>PgStatusMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu.xaml.cs">
+      <DependentUpon>PgSuperUserMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg System Menu\PgSystemMenu.xaml.cs">
+      <DependentUpon>PgSystemMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu.xaml.cs">
+      <DependentUpon>PgTeachingMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\PgIO1.xaml.cs">
+      <DependentUpon>PgIO1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu4.xaml.cs">
+      <DependentUpon>PgMechanicalMenu4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu5.xaml.cs">
+      <DependentUpon>PgMechanicalMenu5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu1.xaml.cs">
+      <DependentUpon>PgSuperUserMenu1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu2.xaml.cs">
+      <DependentUpon>PgSuperUserMenu2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\Library\MesLogger.cs" />
+    <Compile Include="MES\MesComm.cs" />
+    <Compile Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu3.xaml.cs">
+      <DependentUpon>PgSuperUserMenu3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu01.xaml.cs">
+      <DependentUpon>PgTeachingMenu01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg System Menu\PgSystemMenu01.xaml.cs">
+      <DependentUpon>PgSystemMenu01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu02.xaml.cs">
+      <DependentUpon>PgTeachingMenu02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu4.xaml.cs">
+      <DependentUpon>PgSuperUserMenu4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Camera Setting\PgCamera.xaml.cs">
+      <DependentUpon>PgCamera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu03.xaml.cs">
+      <DependentUpon>PgTeachingMenu03.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Qr1Manager.cs" />
+    <Compile Include="Setting Device\ModelSetting.cs" />
+    <Compile Include="PLC\PLCStore.cs" />
+    <Compile Include="PLC\Mitsubishi\FX3_SC09.cs" />
+    <Compile Include="PLC\Mitsubishi\Q_Enthernet.cs" />
+    <Compile Include="Setting Device\SettingScannerTCP.cs" />
+    <Compile Include="Folder\Library\StatusMachine.cs" />
+    <Compile Include="TCP Scanner\ScannerTCP.cs" />
+    <Compile Include="Setting Device\AppSettings.cs" />
+    <Compile Include="COM Scanner\ScannerComm.cs" />
+    <Compile Include="COM Scanner\ScannerLogger.cs" />
+    <Compile Include="COM Scanner\ScannerManager.cs" />
+    <Compile Include="COM Scanner\ScannerStatus.cs" />
+    <Compile Include="Setting Device\SettingScanner.cs" />
+    <Compile Include="Setting Device\SettingPLCCom.cs" />
+    <Compile Include="Setting Device\Setting PLCTcp.cs" />
+    <Compile Include="SQLLite\Dba.cs" />
+    <Compile Include="SQLLite\DbRead.cs" />
+    <Compile Include="SQLLite\DbWrite.cs" />
+    <Compile Include="VisionInspectionStatus.cs" />
+    <Compile Include="WindowPopUp.xaml.cs">
+      <DependentUpon>WindowPopUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowPopUp2.xaml.cs">
+      <DependentUpon>WindowPopUp2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowPopUp3.xaml.cs">
+      <DependentUpon>WindowPopUp3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndAlarm\WndAlarm.xaml.cs">
+      <DependentUpon>WndAlarm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndAlarm\WndAlert.xaml.cs">
+      <DependentUpon>WndAlert.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndChangePass.xaml.cs">
+      <DependentUpon>WndChangePass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndComSettings.xaml.cs">
+      <DependentUpon>WndComSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndLogin.xaml.cs">
+      <DependentUpon>WndLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndPLCComSetting.xaml.cs">
+      <DependentUpon>WndPLCComSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndConfirm.xaml.cs">
+      <DependentUpon>WndConfirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndLotIn.xaml.cs">
+      <DependentUpon>WndLotIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\WndMessenger.xaml.cs">
+      <DependentUpon>WndMessenger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AutoUpdate\WndAutoUpdate.xaml.cs">
+      <DependentUpon>WndAutoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndCheckDataMatrix.xaml.cs">
+      <DependentUpon>WndCheckDataMatrix.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndFTPSetting.xaml.cs">
+      <DependentUpon>WndFTPSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WndUnitControl.xaml.cs">
+      <DependentUpon>WndUnitControl.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Folder\PageUI\Pg Camera Setting\RegionCreatMatrix.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Camera Setting\RegionProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Manual Operation\PgManualOperation1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\PgIO1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg System Menu\PgSystemMenu01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu02.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Camera Setting\PgCamera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu03.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\LabelStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\ImageStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\ButtonStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Assign Menu\PgAssignMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Manual Operation\PgManualOperation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Model\PgModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Status Menu\PgStatusMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Super User Menu\PgSuperUserMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg System Menu\PgSystemMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\Pg Teaching Menu\PgTeachingMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\PgAlarm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\PgIO.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\PgMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Folder\PageUI\PgMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Style\TextBlockStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowPopUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowPopUp2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowPopUp3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndAlarm\WndAlarm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndAlarm\WndAlert.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndChangePass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndComSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndPLCComSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndConfirm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndLotIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialog\WndMessenger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AutoUpdate\WndAutoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndCheckDataMatrix.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndFTPSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WndUnitControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Folder\Library\MyLogger.cs" />
+    <Compile Include="Folder\PageUI\PgAlarm.xaml.cs">
+      <DependentUpon>PgAlarm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\PgIO.xaml.cs">
+      <DependentUpon>PgIO.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\PgMain.xaml.cs">
+      <DependentUpon>PgMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Folder\PageUI\PgMenu.xaml.cs">
+      <DependentUpon>PgMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIManager\UiManager.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-mechanic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\menu-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Autoteam.png" />
+    <Resource Include="Folder\PageUI\Icon\Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Autoteam1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Manager1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\id.png" />
+    <Resource Include="Folder\PageUI\Icon\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="picture.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Autotem2.png" />
+    <Resource Include="Folder\PageUI\Icon\Manager2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Operator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\shutdown_def.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\button off.png" />
+    <Resource Include="Folder\PageUI\Icon\button on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\Scanner.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\setting1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\setting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\plc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\btdown.png" />
+    <Resource Include="Folder\PageUI\Icon\btup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\btdown1.png" />
+    <Resource Include="Folder\PageUI\Icon\btup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Alarm List\" />
+    <Folder Include="WinForm\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\down3.png" />
+    <Resource Include="Folder\PageUI\Icon\up3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="browser_119608.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="code_115247.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\pattern0.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern1.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern2.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern3.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern4.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern5.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern6.png" />
+    <Resource Include="Folder\PageUI\Icon\pattern7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\save01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\save02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\save03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\FTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\down.png" />
+    <Resource Include="Folder\PageUI\Icon\left.png" />
+    <Resource Include="Folder\PageUI\Icon\right.png" />
+    <Resource Include="Folder\PageUI\Icon\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\OK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\pylon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\MVS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\ROI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Folder\PageUI\Icon\MATRIX_MAP.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Fody.6.5.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.5.5\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\build\OpenCvSharp3-AnyCPU.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenCvSharp3-AnyCPU.4.0.0.20181129\build\OpenCvSharp3-AnyCPU.props'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Fody.6.5.5\build\Fody.targets" Condition="Exists('..\packages\Fody.6.5.5\build\Fody.targets')" />
+  <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" />
+</Project>

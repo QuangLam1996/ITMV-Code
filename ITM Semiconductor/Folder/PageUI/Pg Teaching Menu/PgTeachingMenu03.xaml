@@ -1,0 +1,394 @@
+﻿<Page x:Class="ITM_Semiconductor.PgTeachingMenu03"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ITM_Semiconductor"
+      mc:Ignorable="d" 
+     d:DesignHeight="790" d:DesignWidth="1300"
+      Title="PgTeachingMenu03">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1100*"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Foreground" Value="#dd222222" />
+                    <Setter Property="Padding" Value="5,0" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="FontSize" Value="24" />
+                </Style>
+                <Style TargetType="Button" BasedOn="{StaticResource sButton}">
+                    <Setter Property="FontSize" Value="20" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Margin" Value="0,5,5,5" />
+                    <Setter Property="Background" Value="White" />
+                    <Setter Property="BorderThickness" Value="0"/>
+                </Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="22" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Foreground" Value="Black"/>
+                </Style>
+            </Grid.Resources>
+            <Border>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#6787c0" Offset="0"/>
+                        <GradientStop Color="#879ec8" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid>
+                    <Canvas>
+                        <Polygon Points="0,20,130,80,0,170" Fill="#879ec8"/>
+                        <Polygon Points="100,400,200,370,180,470" Fill="#879ec8"/>
+                        <Ellipse Margin="50 400 0 0" Width="40" Height="40" Fill="#879ec8"/>
+
+                    </Canvas>
+                    <StackPanel VerticalAlignment="Bottom">
+                        <TextBlock Text="ITM" Style="{StaticResource titleText}"/>
+                        <TextBlock Text="Semiconductor" Style="{StaticResource normalText}" Opacity="0.8" Margin=" 20 0" FontWeight="Bold"/>
+                        <TextBlock Text="AUTOMATION TEAM" Style="{StaticResource normalText}" Opacity="0.8" Margin=" 20 0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" >
+                        <Label Padding="0 20 0 0"  FontWeight="Bold" Foreground="White" FontSize="22" HorizontalAlignment="Center">
+                            <Label.Effect>
+                                <DropShadowEffect  Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                            </Label.Effect> TEACHING MENU
+                        </Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0 100 0 0" >
+                        <Button x:Name="btSetting1"  Height="60" Width="215" Style="{StaticResource sButton}" Margin="0 5 5 5" BorderThickness="0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Padding="10" Text="MAGAZINE" Foreground="Black" Margin="10" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="btSetting2"  Height="60" Width="215" >
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Padding="10" Text="TRAY CH1"  Margin="10" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="btSetting3"  Height="60" Width="215" >
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Padding="10" Text="TRAY CH2"  Margin="10" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="btSetting4"  Background="LightGreen" Height="60" Width="215" >
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Padding="10" Text="MATRIX PALLET"  Margin="10" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="0">
+            <Grid Grid.Column="0">
+                <Grid.Resources>
+                    <Style TargetType="Button" BasedOn="{StaticResource sButton}">
+                        <Setter Property="FontSize" Value="25" />
+                        <Setter Property="FontWeight" Value="Bold" />
+                        <Setter Property="Margin" Value="0,5,5,5" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="Background" Value="#879ec0" />
+                        <Setter Property="BorderThickness" Value="0.7"/>
+                        <Setter Property="BorderBrush" Value="Black"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="75"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius=" 0 ">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#879ec0" Offset="0"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                    </Border>
+                    <Label Grid.Column="0" FontWeight="Bold" Foreground="White" FontSize="40" BorderThickness="1" BorderBrush="White" Margin="0,0,10,0" >
+                        <Label.Effect>
+                            <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                        </Label.Effect> MATRIX PALLET
+                    </Label>
+                    <Button Grid.Column="1" x:Name="btSave" Margin="5 5 5 5">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Margin="5" Source="/Folder/PageUI/Icon/save.png" />
+                            <TextBlock VerticalAlignment="Center" Margin="10,0,10,0"
+                                     FontSize="20" FontWeight="Bold">SAVE</TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <Grid Grid.Row="1" Margin=" 0 2 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="9*"></RowDefinition>
+                        <RowDefinition Height="9"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="510"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid  Grid.Row="1" Grid.Column="0">
+                        <Grid.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource sButton}">
+                                <Setter Property="FontSize" Value="25" />
+                                <Setter Property="FontWeight" Value="Bold" />
+                                <Setter Property="Margin" Value="0,5,5,5" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="Background" Value="#879ec0" />
+                                <Setter Property="BorderThickness" Value="0.7"/>
+                                <Setter Property="BorderBrush" Value="Black"/>
+                            </Style>
+                        </Grid.Resources>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="55"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" Margin="0 0 0 0">
+                            <Grid.Background>
+                                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#879ec0" Offset="1.1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <Label  FontWeight="Bold" Foreground="White" FontSize="30" VerticalContentAlignment="Center" BorderThickness="1" BorderBrush="White" Margin="0,0,10,0" >
+                                <Label.Effect>
+                                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                                </Label.Effect> ROBOT COMMON
+                            </Label>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TOOL WORK - SỐ TOOL" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="1" x:Name="tbxToolOnCH1" Width="80"  HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TOTAL PALLET/JIG - TỔNG SỐ PALLET/JIG" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="2" x:Name="tbxPaletJig"  Width="80" HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"/>
+                        </Grid>
+                        <Grid Grid.Row="3" Margin="0 0 0 0">
+                            <Grid.Background>
+                                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#879ec0" Offset="1.1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <Label  FontWeight="Bold" Foreground="White" FontSize="30" VerticalContentAlignment="Center" BorderThickness="1" BorderBrush="White" Margin="0,0,10,0" >
+                                <Label.Effect>
+                                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                                </Label.Effect> TRAY MATRIX - TRAY PALLET
+                            </Label>
+                        </Grid>
+                        <Grid Grid.Row="4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TRAY COLUMN" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <Grid Grid.Column="1">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="tbxTrayColumn" Width="80" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Row="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TRAY ROW" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="1" x:Name="tbxTrayRow" Width="80" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                        </Grid>
+                        <Grid Grid.Row="6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TRAY COLUMN PALLET" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="1" x:Name="tbxTrayColumnPallet" Width="80" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                        </Grid>
+                        <Grid Grid.Row="7">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="TRAY ROW PALLET" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="1" x:Name="tbxTrayRowPallet" Width="80" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                        </Grid>
+                        <Grid Grid.Row="8" Margin="0 0 0 0">
+                            <Grid.Background>
+                                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#879ec0" Offset="1.1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <Label  FontWeight="Bold" Foreground="White" FontSize="30" VerticalContentAlignment="Center" BorderThickness="1" BorderBrush="White" Margin="0,0,10,0" >
+                                <Label.Effect>
+                                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="5" Opacity="0.3"/>
+                                </Label.Effect> JIG MATRIX - JIG PALLET
+                            </Label>
+                        </Grid>
+                        <Grid Grid.Row="9">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="JIG COLUMN PALLET" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <TextBox Grid.Column="1" x:Name="tbxJIGColumnPallet" Width="80" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                        </Grid>
+                        <Grid Grid.Row="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBox">
+                                    <Setter Property="Background" Value="Black"/>
+                                    <Setter Property="Foreground" Value="Cyan"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    <Setter Property="FontSize" Value="25"/>
+                                    <Setter Property="Padding" Value="1,1,1,1"/>
+                                </Style>
+                            </Grid.Resources>
+                            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center"   Content="JIG ROW PALLET" Foreground="Black" FontSize="21" FontWeight="Bold"></Label>
+                            </StackPanel>
+                            <Grid Grid.Column="2">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="tbxJIGRowPallet" Width="80" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"  Text="0" FontFamily="Bahnschrift SemiBold Condensed" FontSize="35"></TextBox>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1">
+                        <Image Source="/Folder/PageUI/Icon/MATRIX_MAP.png" Stretch="UniformToFill" HorizontalAlignment="Stretch"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
