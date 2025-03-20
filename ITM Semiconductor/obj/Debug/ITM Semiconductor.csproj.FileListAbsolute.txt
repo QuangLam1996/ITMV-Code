@@ -3435,7 +3435,6 @@ D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\FluentFTP.xml
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\KeyPad.dll.config
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
-D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\MvCameraControl.Net.xml
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\Newtonsoft.Json.xml
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\OpenCvSharp.xml
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\bin\Debug\OpenCvSharp.Blob.xml

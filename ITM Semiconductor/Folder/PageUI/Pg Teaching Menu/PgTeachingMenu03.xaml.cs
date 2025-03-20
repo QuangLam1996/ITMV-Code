@@ -22,33 +22,20 @@ namespace ITM_Semiconductor
     /// <summary>
     /// Interaction logic for PgTeachingMenu03.xaml
     /// </summary>
-    /// DO QUANG LAM
     public partial class PgTeachingMenu03 : Page
     {
-        private int ToolOnCH1 = 0;
+        private int D200 = 0;
+        private int D230 = 0;
+        private int D202 = 0;
+        private int D204 = 0;
+        private int D210 = 0;
+        private int D212 = 0;
+        private int D220 = 0;
+        private int D222 = 0;
 
-        private int OnePaletJigCH1 = 0;
-
-        private int PickJigCH1 = 0;
-
-
-        private int RowTrayCH1 = 0;
-
-        private int ColumTrayCH1 = 0;
-
-        private int PaletCH1 = 0;
-
-        private int NumberPalletJig = 0;
-        private int NumberrowCreatPickPalletJig = 0;
-        private int NumbercolumnCreatPickPalletJig = 0;
-
-        private int NumberrowCreatPlacePalletTray = 0;
-        private int NumbercolumnCreatPlacePalletTray = 0;
-
-        private int HaveToolFrame = 0;
-
-        private bool OnOffFrame = false;
-
+        //Test Git Hub
+        private int D223 = 0;
+        private int D224 = 0;
 
 
         public PgTeachingMenu03()
@@ -62,39 +49,18 @@ namespace ITM_Semiconductor
 
             this.btSave.Click += BtSave_Click;
 
-            this.btnOffFrame.Click += BtnOffFrame_Click;
-            this.btnOnFrame.Click += BtnOnFrame_Click;
-
-            this.tbxColumTrayCH1.TouchDown += Tbx_TouchDown;
-            this.tbxNumbercolumnCreatPlacePalletTray.TouchDown += Tbx_TouchDown;
-            this.tbxNumberPalletJig.TouchDown += Tbx_TouchDown;
-            this.tbxNumberrowCreatPickPallet.TouchDown += Tbx_TouchDown;
-            this.tbxNumberColumnCreatPlacePallet.TouchDown += Tbx_TouchDown;
-            this.tbxNumberrowCreatPlacePalletTray.TouchDown += Tbx_TouchDown;
-            this.tbxPaletJigCH1.TouchDown += Tbx_TouchDown;
-            this.tbxPaletRowCH1.TouchDown += Tbx_TouchDown;
-            this.tbxPickJigCH1.TouchDown += Tbx_TouchDown;
-            this.tbxRowTrayCH1.TouchDown += Tbx_TouchDown;
             this.tbxToolOnCH1.TouchDown += Tbx_TouchDown;
+            this.tbxPaletJig.TouchDown += Tbx_TouchDown;
 
+            this.tbxTrayColumnPallet.TouchDown += Tbx_TouchDown;
+            this.tbxTrayRowPallet.TouchDown += Tbx_TouchDown;
 
+            this.tbxJIGColumnPallet.TouchDown += Tbx_TouchDown;
+            this.tbxJIGRowPallet.TouchDown += Tbx_TouchDown;
 
+            this.tbxTrayColumn.TouchDown += Tbx_TouchDown;
+            this.tbxTrayRow.TouchDown += Tbx_TouchDown;
         }
-
-        private void BtnOnFrame_Click(object sender, RoutedEventArgs e)
-        {
-            this.OnOffFrame = true;
-            this.btnOnFrame.Background = Brushes.LightGreen;
-            this.btnOffFrame.Background = Brushes.White;
-        }
-
-        private void BtnOffFrame_Click(object sender, RoutedEventArgs e)
-        {
-            this.OnOffFrame = false;
-            this.btnOnFrame.Background = Brushes.White;
-            this.btnOffFrame.Background = Brushes.LightGreen;
-        }
-
         private void Tbx_TouchDown(object sender, TouchEventArgs e)
         {
             TextBox textbox = sender as TextBox;
@@ -102,10 +68,8 @@ namespace ITM_Semiconductor
             if (keyboardWindow.ShowDialog() == true)
             {
                 textbox.Text = keyboardWindow.Result;
-
             }
         }
-
         private void PgTeachingMenu03_Loaded(object sender, RoutedEventArgs e)
         {
             UpdateUI();
@@ -115,52 +79,29 @@ namespace ITM_Semiconductor
         {
             if (!UiManager.PLC.isOpen())
                 return;
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7700, out ToolOnCH1);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7702, out OnePaletJigCH1);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7704, out PickJigCH1);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 200, out D200);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 230, out D230);
 
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7706, out RowTrayCH1);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7708, out ColumTrayCH1);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7710, out PaletCH1);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 202, out D202);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 204, out D204);
 
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7712, out NumberPalletJig);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7714, out NumberrowCreatPickPalletJig);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7716, out NumbercolumnCreatPickPalletJig);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 210, out D210);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 212, out D212);
 
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7718, out NumberrowCreatPlacePalletTray);
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7720, out NumbercolumnCreatPlacePalletTray);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 220, out D220);
+            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 222, out D222);
 
-            UiManager.PLC.ReadDoubleWord(Mitsubishi.DeviceCode.D, 7722, out HaveToolFrame);
+            tbxToolOnCH1.Text = D200.ToString();
+            tbxPaletJig.Text = D230.ToString();
 
+            tbxTrayColumn.Text = D202.ToString();
+            tbxTrayRow.Text = D204.ToString();
 
+            tbxTrayColumnPallet.Text = D210.ToString();
+            tbxTrayRowPallet.Text = D212.ToString();
 
-            tbxToolOnCH1.Text = ToolOnCH1.ToString();
-            tbxPaletJigCH1.Text = OnePaletJigCH1.ToString();
-            tbxPickJigCH1.Text = PickJigCH1.ToString();
-
-
-            tbxRowTrayCH1.Text = RowTrayCH1.ToString();
-            tbxColumTrayCH1.Text = ColumTrayCH1.ToString();
-            tbxPaletRowCH1.Text = PaletCH1.ToString();
-
-            tbxNumberPalletJig.Text = NumberPalletJig.ToString();
-            tbxNumberrowCreatPickPallet.Text = NumberrowCreatPickPalletJig.ToString();
-            tbxNumberColumnCreatPlacePallet.Text = NumbercolumnCreatPickPalletJig.ToString();
-
-            tbxNumberrowCreatPlacePalletTray.Text = NumberrowCreatPlacePalletTray.ToString();
-            tbxNumbercolumnCreatPlacePalletTray.Text = NumbercolumnCreatPlacePalletTray.ToString();
-
-            if (HaveToolFrame == 0)
-            {
-                this.btnOnFrame.Background = Brushes.White;
-                this.btnOffFrame.Background = Brushes.LightGreen;
-            }
-            else if (HaveToolFrame == 1)
-            {
-                this.btnOffFrame.Background = Brushes.White;
-                this.btnOnFrame.Background = Brushes.LightGreen;
-            }
-
+            tbxJIGColumnPallet.Text = D220.ToString();
+            tbxJIGRowPallet.Text = D220.ToString();
         }
         private void BtSave_Click(object sender, RoutedEventArgs e)
         {
@@ -171,57 +112,40 @@ namespace ITM_Semiconductor
             WndConfirm confirmYesNo = new WndConfirm();
             if (!confirmYesNo.DoComfirmYesNo("Do You Want Save Setting?"))
                 return;
-            ToolOnCH1 = Convert.ToInt16(this.tbxToolOnCH1.Text);
-            OnePaletJigCH1 = Convert.ToInt16(this.tbxPaletJigCH1.Text);
-            PickJigCH1 = Convert.ToInt16(this.tbxPickJigCH1.Text);
+            D200 = Convert.ToInt16(this.tbxToolOnCH1.Text);
+            D230 = Convert.ToInt16(this.tbxPaletJig.Text);
+
+            D202 = Convert.ToInt16(this.tbxTrayColumn.Text);
+            D204 = Convert.ToInt16(this.tbxTrayRow.Text);
+
+            D210 = Convert.ToInt16(this.tbxTrayColumnPallet.Text);
+            D212 = Convert.ToInt16(this.tbxTrayRowPallet.Text);
+
+            D220 = Convert.ToInt16(this.tbxJIGColumnPallet.Text);
+            D222 = Convert.ToInt16(this.tbxJIGRowPallet.Text);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 200, D200);
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 230, D230);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 202, D202);
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 204, D204);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 210, D210);
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 212, D212);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 220, D220);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 222, D222);
+
+            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 222, D222);
 
 
-            RowTrayCH1 = Convert.ToInt16(this.tbxRowTrayCH1.Text);
-            ColumTrayCH1 = Convert.ToInt16(this.tbxColumTrayCH1.Text);
-            PaletCH1 = Convert.ToInt16(this.tbxPaletRowCH1.Text);
-
-            NumberPalletJig = Convert.ToInt16(this.tbxNumberPalletJig.Text);
-            NumberrowCreatPickPalletJig = Convert.ToInt16(this.tbxNumberrowCreatPickPallet.Text);
-            NumbercolumnCreatPickPalletJig = Convert.ToInt16(this.tbxNumberColumnCreatPlacePallet.Text);
-
-            NumberrowCreatPlacePalletTray = Convert.ToInt16(this.tbxNumberrowCreatPlacePalletTray.Text);
-            NumbercolumnCreatPlacePalletTray = Convert.ToInt16(this.tbxNumbercolumnCreatPlacePalletTray.Text);
-
-            if (OnOffFrame)
-            {
-                HaveToolFrame = 1;
-            }
-            else
-            {
-                HaveToolFrame = 0;
-            }
-
-
-
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7700, ToolOnCH1);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7702, OnePaletJigCH1);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7704, PickJigCH1);
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7706, RowTrayCH1);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7708, ColumTrayCH1);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7710, PaletCH1);
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7712, NumberPalletJig);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7714, NumberrowCreatPickPalletJig);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7716, NumbercolumnCreatPickPalletJig);
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7718, NumberrowCreatPlacePalletTray);
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7720, NumbercolumnCreatPlacePalletTray);
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 7722, HaveToolFrame);
-
+            UiManager.PLC.WriteBit(Mitsubishi.DeviceCode.L, 04, true);
 
             UpdateUI();
 
             WndMessenger ShowMessenger = new WndMessenger();
             ShowMessenger.MessengerShow("Messenger : Save Data Successfully ");
-
         }
 
         private void BtSetting4_Click(object sender, RoutedEventArgs e)
@@ -246,7 +170,6 @@ namespace ITM_Semiconductor
         {
             UserManager.createUserLog(UserActions.PAGE_TEACHING_MENU);
             UiManager.Instance.SwitchPage(PAGE_ID.PAGE_TEACHING_MENU);
-
         }
     }
 }
