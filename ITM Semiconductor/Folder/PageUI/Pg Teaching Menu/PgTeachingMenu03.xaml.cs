@@ -37,6 +37,10 @@ namespace ITM_Semiconductor
         private int D223 = 0;
         private int D224 = 0;
 
+        //Test Git Hub
+        private int D225 = 0;
+        private int D226 = 0;
+
 
         public PgTeachingMenu03()
         {

@@ -3560,3 +3560,142 @@ D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\obj\Debug
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\obj\Debug\ITM Semi.7FC71DE6.Up2Date
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\obj\Debug\ITM Semiconductor.exe
 D:\ITM_\9999.PSG AUTO LASER\4. HMI\ITM Semiconductor\ITM Semiconductor\obj\Debug\ITM Semiconductor.pdb
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\dll\x86\opencv_ffmpeg400.dll
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\dll\x64\opencv_ffmpeg400_64.dll
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\ITM Semiconductor.exe.config
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\ITM Semiconductor.exe
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\ITM Semiconductor.pdb
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\DTO.dll.config
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\EntityFramework.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\EPPlus.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\FluentFTP.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\KeyPad.dll.config
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\OpenCvSharp.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\OpenCvSharp.Blob.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\OpenCvSharp.UserInterface.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Buffers.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Data.SQLite.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Drawing.Common.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Memory.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\bin\Debug\System.ValueTuple.xml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.csproj.AssemblyReference.cache
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Style\LabelStyle.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Style\Page.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Style\ImageStyle.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Style\ButtonStyle.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\MainWindow.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Style\TextBlockStyle.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\RegionCreatMatrix.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\RegionProperty.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Manual Operation\PgManualOperation1.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu1.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu2.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu3.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgIO1.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu4.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu5.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu1.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu2.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu3.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu01.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg System Menu\PgSystemMenu01.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu02.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu4.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\PgCamera.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu03.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Assign Menu\PgAssignMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Manual Operation\PgManualOperation.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Model\PgModel.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Status Menu\PgStatusMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg System Menu\PgSystemMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgAlarm.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgIO.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgMain.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgMenu.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\MainWindow.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp2.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp3.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndAlarm\WndAlarm.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndAlarm\WndAlert.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndChangePass.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndComSettings.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndLogin.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndPLCComSetting.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndConfirm.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndLotIn.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndMessenger.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\AutoUpdate\WndAutoUpdate.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndCheckDataMatrix.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndFTPSetting.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndUnitControl.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\App.g.cs
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor_MarkupCompile.cache
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor_MarkupCompile.lref
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\App.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\RegionCreatMatrix.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\RegionProperty.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Manual Operation\PgManualOperation1.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu1.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu2.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu3.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgIO1.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu4.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu5.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu1.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu2.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu3.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu01.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg System Menu\PgSystemMenu01.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu02.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu4.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Camera Setting\PgCamera.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu03.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Assign Menu\PgAssignMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Manual Operation\PgManualOperation.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Mechanical Menu\PgMechanicalMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Model\PgModel.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Status Menu\PgStatusMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Super User Menu\PgSuperUserMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg System Menu\PgSystemMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\Pg Teaching Menu\PgTeachingMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgAlarm.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgIO.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgMain.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Folder\PageUI\PgMenu.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp2.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WindowPopUp3.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndAlarm\WndAlarm.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndAlarm\WndAlert.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndChangePass.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndComSettings.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndLogin.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndPLCComSetting.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndConfirm.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndLotIn.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\Dialog\WndMessenger.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\AutoUpdate\WndAutoUpdate.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndCheckDataMatrix.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndFTPSetting.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\WndUnitControl.baml
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.g.resources
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM_Semiconductor.Properties.Resources.resources
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.csproj.GenerateResource.cache
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.csproj.CoreCompileInputs.cache
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.csproj.Fody.CopyLocal.cache
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semi.7FC71DE6.Up2Date
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.exe
+C:\Users\quang\Desktop\Git Clonee\ITMV-Code\ITM Semiconductor\obj\Debug\ITM Semiconductor.pdb
