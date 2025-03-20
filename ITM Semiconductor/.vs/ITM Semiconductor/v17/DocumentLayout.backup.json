@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|d:\\edit20241220\\itm semiconductor\\itm semiconductor\\itm semiconductor\\folder\\pageui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pgmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\folder\\pageui\\pg mechanical menu\\pgmechanicalmenu4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pg mechanical menu\\pgmechanicalmenu4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\dialog\\wndconfirm.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\dialog\\wndconfirm.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\dialog\\wndlotin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\dialog\\wndlotin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\dialog\\wndlotin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\dialog\\wndlotin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\style\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\style\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\folder\\pageui\\pgmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pgmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\mes\\mescomm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\mes\\mescomm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\uimanager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\uimanager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\setting device\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\setting device\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\datatype\\eventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\datatype\\eventlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\itm semiconductor\\folder\\pageui\\pg super user menu\\pgsuperusermenu1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pg super user menu\\pgsuperusermenu1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ButtonStyle.xaml",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Style\\ButtonStyle.xaml",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Style\\ButtonStyle.xaml",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Style\\ButtonStyle.xaml",
+              "RelativeToolTip": "ITM Semiconductor\\Style\\ButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-03T06:55:33.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WndLotIn.xaml.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndLotIn.xaml.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Dialog\\WndLotIn.xaml.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndLotIn.xaml.cs",
+              "RelativeToolTip": "ITM Semiconductor\\Dialog\\WndLotIn.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T06:50:19.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WndLotIn.xaml",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndLotIn.xaml",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Dialog\\WndLotIn.xaml",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndLotIn.xaml",
+              "RelativeToolTip": "ITM Semiconductor\\Dialog\\WndLotIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-03T06:50:16.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WndConfirm.xaml",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndConfirm.xaml",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Dialog\\WndConfirm.xaml",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Dialog\\WndConfirm.xaml",
+              "RelativeToolTip": "ITM Semiconductor\\Dialog\\WndConfirm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-03T06:50:11.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PgMechanicalMenu4.xaml.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Mechanical Menu\\PgMechanicalMenu4.xaml.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\Pg Mechanical Menu\\PgMechanicalMenu4.xaml.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Mechanical Menu\\PgMechanicalMenu4.xaml.cs",
+              "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\Pg Mechanical Menu\\PgMechanicalMenu4.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAuwLwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T06:38:11.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PgMain.xaml.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml.cs",
+              "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T06:32:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PgMain.xaml",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml",
+              "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\PgMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-03T06:32:00.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Setting Device\\AppSettings.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Setting Device\\AppSettings.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Setting Device\\AppSettings.cs",
+              "RelativeToolTip": "ITM Semiconductor\\Setting Device\\AppSettings.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAADwv2EAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:13:28.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventLog.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\DataType\\EventLog.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\DataType\\EventLog.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\DataType\\EventLog.cs",
+              "RelativeToolTip": "ITM Semiconductor\\DataType\\EventLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:09:55.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UiManager.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\UIManager\\UiManager.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\UIManager\\UiManager.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\UIManager\\UiManager.cs",
+              "RelativeToolTip": "ITM Semiconductor\\UIManager\\UiManager.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAIwD8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T07:09:13.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PgSuperUserMenu1.xaml.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Super User Menu\\PgSuperUserMenu1.xaml.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\Pg Super User Menu\\PgSuperUserMenu1.xaml.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Super User Menu\\PgSuperUserMenu1.xaml.cs",
+              "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\Pg Super User Menu\\PgSuperUserMenu1.xaml.cs",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAcwBgBAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T06:52:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MesComm.cs",
+              "DocumentMoniker": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\MES\\MesComm.cs",
+              "RelativeDocumentMoniker": "ITM Semiconductor\\MES\\MesComm.cs",
+              "ToolTip": "D:\\Edit20241220\\ITM Semiconductor\\ITM Semiconductor\\ITM Semiconductor\\MES\\MesComm.cs",
+              "RelativeToolTip": "ITM Semiconductor\\MES\\MesComm.cs",
+              "ViewState": "AQIAANsBAAAAAAAAAAA7wLoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T06:51:27.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

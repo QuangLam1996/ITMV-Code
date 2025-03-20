@@ -1,0 +1,16 @@
+
+19:18:26.19-[Information]-UiManager: Startup:
+19:18:26.49-[Information]-Dba:  ->  Database File SQLite Already Existed!
+19:18:26.70-[Error]-VisionAL: Have No Template at X2835
+19:18:26.70-[Error]-VisionAL: Have No Template at X2835
+19:18:27.57-[Error]-VisionAL: Have No Template at X2835
+19:18:27.58-[Error]-VisionAL: Have No Template at X2835
+19:18:28.71-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+19:18:35.77-[Warning]-PLC Q_Enthernet: Reconnection attempt 1 failed.
+19:18:36.77-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+19:18:37.78-[Information]-UserManager: LogOn: AutoTeams/itm
+19:18:43.84-[Warning]-PLC Q_Enthernet: Reconnection attempt 2 failed.
+19:18:44.85-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+19:18:51.89-[Information]-WndWindow: Disconnect PLC
+19:18:51.89-[Information]-WndWindow: Stop Program
+19:18:51.90-[Warning]-PLC Q_Enthernet: Reconnection attempt 3 failed.

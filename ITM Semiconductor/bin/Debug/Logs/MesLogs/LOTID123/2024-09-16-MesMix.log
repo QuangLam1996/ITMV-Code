@@ -1,0 +1,3 @@
+Time , Model , Lot ID , Config , QR Code JIG , QR Code PCB , Result OK/NG , Mes Online/Mes Offline
+
+13:25:06.39,model test,LOTID123,CONFIG123,,,OK,Mes Offline

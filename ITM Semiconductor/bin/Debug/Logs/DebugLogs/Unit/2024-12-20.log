@@ -1,0 +1,64 @@
+
+16:32:56.49-[Information]-Main process: addLog:CHANNEL 1 STOP!!!
+16:33:01.02-[Error]-DbRead: GetCurrentLotStatus error:SQL logic error
+no such table: lot_status
+16:33:01.02-[Information]-Main process: addLog:USER CHOSE INITIAL CHANNEL 1!!!
+17:05:17.19-[Information]-WndWindow: Disconnect PLC
+17:05:17.19-[Information]-WndWindow: Stop Program
+17:05:34.85-[Information]-UiManager: Startup:
+17:05:35.46-[Information]-Dba:  ->  Database File SQLite Already Existed!
+17:05:35.80-[Error]-VisionAL: Have No Template at X2835
+17:05:35.85-[Error]-VisionAL: Have No Template at X2835
+17:05:37.25-[Error]-VisionAL: Have No Template at X2835
+17:05:37.30-[Error]-VisionAL: Have No Template at X2835
+17:05:38.11-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+17:05:43.13-[Information]-PLC Q_Enthernet: Reconnected successfully to PLC.
+17:06:00.15-[Information]-Main process: addLog:CHANNEL 1 STOP!!!
+17:10:21.90-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:19:37.62-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:34:16.78-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:34:21.81-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:35:36.18-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:45:31.94-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+17:47:52.67-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+18:01:58.39-[Error]-Main process: Clock_ElapsedIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+18:11:30.04-[Information]-WndWindow: Disconnect PLC
+18:11:30.04-[Information]-WndWindow: Stop Program
+18:11:39.75-[Information]-UiManager: Startup:
+18:11:39.82-[Information]-Dba:  ->  Database File SQLite Already Existed!
+18:11:40.08-[Error]-VisionAL: Have No Template at X2835
+18:11:40.08-[Error]-VisionAL: Have No Template at X2835
+18:11:41.18-[Error]-VisionAL: Have No Template at X2835
+18:11:41.18-[Error]-VisionAL: Have No Template at X2835
+18:11:41.76-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+18:11:46.76-[Information]-PLC Q_Enthernet: Reconnected successfully to PLC.
+18:12:03.43-[Information]-WndWindow: Disconnect PLC
+18:12:03.43-[Information]-WndWindow: Stop Program
+18:17:20.76-[Information]-UiManager: Startup:
+18:17:21.45-[Information]-Dba:  ->  Database File SQLite Already Existed!
+18:17:21.98-[Error]-VisionAL: Have No Template at X2835
+18:17:22.05-[Error]-VisionAL: Have No Template at X2835
+18:17:24.06-[Error]-VisionAL: Have No Template at X2835
+18:17:24.11-[Error]-VisionAL: Have No Template at X2835
+18:17:24.88-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+18:17:29.89-[Information]-PLC Q_Enthernet: Reconnected successfully to PLC.
+18:18:18.08-[Information]-WndWindow: Disconnect PLC
+18:18:18.09-[Information]-WndWindow: Stop Program
+18:48:24.49-[Information]-UiManager: Startup:
+18:48:24.79-[Information]-Dba:  ->  Database File SQLite Already Existed!
+18:48:25.43-[Error]-VisionAL: Have No Template at X2835
+18:48:25.52-[Error]-VisionAL: Have No Template at X2835
+18:48:27.52-[Error]-VisionAL: Have No Template at X2835
+18:48:27.57-[Error]-VisionAL: Have No Template at X2835
+18:48:28.83-[Warning]-PLC Q_Enthernet: Connection lost. Attempting to reconnect...
+18:48:33.85-[Information]-PLC Q_Enthernet: Reconnected successfully to PLC.
+18:48:56.83-[Information]-WndWindow: Disconnect PLC
+18:48:56.83-[Information]-WndWindow: Stop Program
