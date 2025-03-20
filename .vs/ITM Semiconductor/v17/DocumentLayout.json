@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\",
+  "WorkspaceRootPath": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|c:\\users\\quang\\desktop\\git clonee\\itmv-code\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|d:\\itm_\\9999.psg auto laser\\4. hmi\\itm semiconductor\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu01.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu01.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu01.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8AE09138-DAB3-4831-9032-A1ABEA0EE541}|ITM Semiconductor\\ITM Semiconductor.csproj|solutionrelative:itm semiconductor\\folder\\pageui\\pg teaching menu\\pgteachingmenu03.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PgTeachingMenu03.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
+              "DocumentMoniker": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
               "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
-              "ToolTip": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
+              "ToolTip": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
               "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T07:57:40.339Z",
               "EditorCaption": ""
@@ -45,25 +45,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PgTeachingMenu01.xaml",
-              "DocumentMoniker": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
+              "DocumentMoniker": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
               "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
-              "ToolTip": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
+              "ToolTip": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
               "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu01.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T12:32:42.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:32:42.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PgTeachingMenu03.xaml",
-              "DocumentMoniker": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
+              "DocumentMoniker": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
               "RelativeDocumentMoniker": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
-              "ToolTip": "C:\\Users\\quang\\Desktop\\Git Clonee\\ITMV-Code\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
+              "ToolTip": "D:\\ITM_\\9999.PSG AUTO LASER\\4. HMI\\ITM Semiconductor\\ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
               "RelativeToolTip": "ITM Semiconductor\\Folder\\PageUI\\Pg Teaching Menu\\PgTeachingMenu03.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T12:32:30.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:32:30.473Z"
             }
           ]
         }
