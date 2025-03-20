@@ -26,23 +26,18 @@ namespace ITM_Semiconductor
     {
         private int D200 = 0;
         private int D230 = 0;
+
         private int D202 = 0;
         private int D204 = 0;
+
         private int D210 = 0;
         private int D212 = 0;
+
         private int D220 = 0;
         private int D222 = 0;
 
-        //Test Git Hub
+        //Test Git
         private int D223 = 0;
-        private int D224 = 0;
-
-        //Test Git Hub
-        private int D225 = 0;
-        private int D226 = 0;
-        //Test Git Hub
-        private int D227 = 0;
-
 
         public PgTeachingMenu03()
         {
@@ -140,11 +135,7 @@ namespace ITM_Semiconductor
             UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 212, D212);
 
             UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 220, D220);
-
             UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 222, D222);
-
-            UiManager.PLC.WriteDoubleWord(Mitsubishi.DeviceCode.D, 222, D222);
-
 
             UiManager.PLC.WriteBit(Mitsubishi.DeviceCode.L, 04, true);
 
