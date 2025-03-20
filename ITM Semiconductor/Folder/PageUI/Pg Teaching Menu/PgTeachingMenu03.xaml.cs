@@ -22,6 +22,7 @@ namespace ITM_Semiconductor
     /// <summary>
     /// Interaction logic for PgTeachingMenu03.xaml
     /// </summary>
+    /// DO QUANG LAM
     public partial class PgTeachingMenu03 : Page
     {
         private int ToolOnCH1 = 0;
